@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+ }
+/*#cart{
+    display: flex;
+    flex-direction: row;
+
+} */
+.navfont{
+    height: 100px;
+    margin: 0px;
+    color: black;
+}
+.navfont:hover{
+    font-weight:bold;
+    background-color: red;
+    color: white;
+}
+.redfont{
+    color: red;
+}
+.header
+{
+    display: flex;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    min-width: 50px;
+    line-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3%;
+}
+.header .search
+{
+    margin: 8px;
+    padding: 0px 0px;
+}
+.header .link
+{
+    list-style: none;
+}
+.header .link a
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 10px;
+    color: blue;
+}
+.home
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home .left
+{
+    position: relative;
+    max-width: 700px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.home .left .p1
+{
+    font-size: 1.8em;
+    line-height: 2em;
+    font-weight: 600;
+}
+.home .left a
+{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 20px;
+    background: red;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.home .img
+{
+    width: 600px;
+    display: flex;
+    padding-right: 80px;
+    margin-top: 120px;
+    justify-content: flex-end;
+}
+.page2
+{
+    padding: 150px;
+    text-align: center;
+    display: block;
+}
+.page2 hr
+{
+    width: 120px;
+    background-color: red;
+    border: 2px solid red;
+    margin-left: 45%; 
+}
+.page2 .images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.page2 .images .prt
+{
+    margin: 40px 0 0 30px;
+    text-align: left;
+}
+.page2 .images .prt img
+{
+    display: inline-block;
+    max-width: 250px;
+    background-color: rgb(211, 209, 209);
+}
+.star{
+    color: red;
+}
+
+.page3
+{
+     padding: 0px;
+    text-align: center;
+    display: block;
+}
+.page3 .images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.page3 .images .prt
+{
+    text-align: left;
+}
+.page3 .images .prt img
+{
+    display: inline-block;
+    max-width: 250px;
+    background-color: rgb(211, 209, 209);
+}
+
+
+.page4
+{
+    padding: 50px;
+    text-align: center;
+    display: block;
+}
+.page4 hr
+{
+    width: 100px;
+    background-color: red;
+    border: 2px solid red;
+    margin-left: 47%; 
+}
+.page4 .images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.page4 .images .prt
+{
+    margin: 40px 0 0 30px;
+    text-align: left;
+}
+.page4 .images .prt img
+{
+    display: inline-block;
+    max-width: 250px;
+    background-color: rgb(211, 209, 209);
+}
+.pri{
+
+    height: 250px;
+}
+#gradient{
+    display: flex;
+    width: 98.6vw;
+    height: 45vh;
+    background-image: linear-gradient(45deg,white, rgb(243, 98, 123),rgb(207, 57, 57));
+}
+.mi{
+   height: 300px;
+}
+#micontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.btns{
+    display: inline-block;
+    margin-right : 420px;
+    padding: 8px 10px;
+    background: red;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#box{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    width: 98.8vw; 
+}
+.boxcontent{
+    /* border: 2px solid black; */
+    background-color: rgba(231, 223, 223, 0.479);
+    text-align: center;
+    margin: 10px;
+    padding-top: 30px;
+}
+
+.page5
+{
+    padding: 150px;
+    text-align: center;
+    display: block;
+}
+.page5 hr
+{
+    width: 110px;
+    background-color: red;
+    border: 2px solid red;
+    margin-left: 45%;
+     
+}
+.page5 .images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.page5.images.imag{
+    scroll-margin-left: 100px;
+    padding-right: 20px;
+}
+.round{
+    /* border: 3px solid black; */
+    width: 150px;
+    clip-path: circle();
+}
+.footer
+{
+    background-image: radial-gradient( rgb(243, 98, 123),rgb(207, 57, 57));
+}
+.footer .box-container
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .box-container .box
+{
+  padding: 1rem;
+  flex: 1 1 25rem;
+}
+.footer .box-container .box .h1
+{
+  font-size: 1.5rem;
+  padding: .7rem 70%;
+  color: #000;
+}
+.footer .box-container .box .h2
+{
+  font-size: 1.5rem;
+  padding: .7rem 0;
+  color: red;
+}
+.footer .box-container .box p
+{
+  font-size: 1rem;
+  padding: .7rem .5rem ;
+  color: #000;
+}
+.footer .box-container .box a
+{
+  font-size: 1rem;
+  display: block;
+  padding: .5rem 0 0 70%;
+  color: blue;
+  text-decoration: none;
+}
+.footer .box-container .box a:hover
+{
+  text-decoration: underline;
+}
+
